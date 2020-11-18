@@ -1,0 +1,6 @@
+framework module PureObjcFramework {
+  umbrella header "PureObjcFramework.h"
+
+  export *
+  module * { export * }
+}

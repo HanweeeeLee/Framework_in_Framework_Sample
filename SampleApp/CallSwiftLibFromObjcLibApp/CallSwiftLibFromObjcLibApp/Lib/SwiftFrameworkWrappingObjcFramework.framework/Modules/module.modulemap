@@ -1,0 +1,11 @@
+framework module SwiftFrameworkWrappingObjcFramework {
+  umbrella header "SwiftFrameworkWrappingObjcFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftFrameworkWrappingObjcFramework.Swift {
+    header "SwiftFrameworkWrappingObjcFramework-Swift.h"
+    requires objc
+}
