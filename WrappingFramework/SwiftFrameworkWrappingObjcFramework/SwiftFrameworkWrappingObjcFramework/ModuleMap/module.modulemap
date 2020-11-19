@@ -1,0 +1,5 @@
+
+module SwiftLibWrappingObjc [system][extern_c] {
+    header "../Headers/PureObjcFrameworkUmbrellaHeader.h"
+    export *
+}

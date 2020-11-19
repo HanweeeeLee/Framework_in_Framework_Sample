@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0A452D2566268A0049155E /* PureObjcFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0A452B2566267B0049155E /* PureObjcFramework.framework */; };
+		4F0A452E2566268A0049155E /* PureObjcFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0A452B2566267B0049155E /* PureObjcFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4F1BB538256509B900C360BE /* SwiftFrameworkWrappingObjcFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BB532256509A100C360BE /* SwiftFrameworkWrappingObjcFramework.framework */; };
 		4F1BB539256509B900C360BE /* SwiftFrameworkWrappingObjcFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1BB532256509A100C360BE /* SwiftFrameworkWrappingObjcFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4F9296642564D89800BF1825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9296632564D89800BF1825 /* AppDelegate.swift */; };
@@ -25,6 +27,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				4F1BB539256509B900C360BE /* SwiftFrameworkWrappingObjcFramework.framework in Embed Frameworks */,
+				4F0A452E2566268A0049155E /* PureObjcFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,6 +35,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F0A452B2566267B0049155E /* PureObjcFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PureObjcFramework.framework; sourceTree = "<group>"; };
 		4F1BB532256509A100C360BE /* SwiftFrameworkWrappingObjcFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwiftFrameworkWrappingObjcFramework.framework; sourceTree = "<group>"; };
 		4F9296602564D89800BF1825 /* CallSwiftLibFromObjcLibApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CallSwiftLibFromObjcLibApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9296632564D89800BF1825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F1BB538256509B900C360BE /* SwiftFrameworkWrappingObjcFramework.framework in Frameworks */,
+				4F0A452D2566268A0049155E /* PureObjcFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +63,7 @@
 		4F1BB531256509A100C360BE /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				4F0A452B2566267B0049155E /* PureObjcFramework.framework */,
 				4F1BB532256509A100C360BE /* SwiftFrameworkWrappingObjcFramework.framework */,
 			);
 			path = Lib;
